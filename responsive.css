@@ -1,0 +1,99 @@
+@media (max-width: 1050px) {
+    ul li a, 
+    ul li a:hover, 
+    ul li button, 
+    .head-btn,
+    .sect2-btn1,
+    .sect2-btn2{
+        font-size: 12px !important;
+    }
+    .header-title{
+        font-size: 24px !important;
+    }
+    .header-desc{
+        font-size: 14px !important;
+        width: 405px !important;
+    }
+    .sect1-cards .card:nth-child(3),
+    .sect1-cards .card:nth-child(4),
+    .sect1-cards .card:nth-child(5){
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    nav{
+        display: none;
+    }
+    .sidebar{
+        display: block;
+    }
+    .burger{
+        display: block !important;
+        margin: 0 auto;
+    }
+    input[type="checkbox"]:checked + .sidebar {
+        transform: translateX(0);
+    }
+    .fa-bars{
+        position: relative;
+        /* top: -25px; */
+        margin-left: 550px;
+    }
+    .container-header{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        margin: 0 auto;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .header-description{
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+    .container-header img{
+        margin: 0 auto;
+    }
+    .sect1-desc{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+    }
+    .sect1-cards .card:nth-child(3),
+    .sect1-cards .card:nth-child(4),
+    .sect1-cards .card:nth-child(5){
+        display: none;
+    }
+    .container{
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 426px) {
+    .container{
+        max-width: 425px;
+        padding: 0 20px;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .fa-bars{
+        margin-left: 250px;
+    }
+    .sect1-desc{
+        width: 300px !important;
+    }
+    .header-desc{
+        width: 300px !important;
+        margin: 0 auto;
+    }
+    .header-title{
+        width: 300px !important;
+    }
+    .sect1-cards .card:nth-child(2){
+        width: 320px;
+        height: auto;
+    }
+}
